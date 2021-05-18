@@ -12,7 +12,7 @@ public class PowerSet {
         return new AbstractList<Set<E>>() {
             @Override public int size() {
                 // 멱집합의 크기는 2를 원래 집합의 원소 수만큼 거듭제곱 것과 같다.
-                return 1 << src.size();
+                return 1 << src.size();   
             }
 
             @Override public boolean contains(Object o) {
