@@ -40,7 +40,7 @@ public class ReflectiveInstantiation {
             fatalError("Set을 구현하지 않은 클래스입니다.");
         }
 
-        // 생성한 집합을 사용한다.
+        // 생성한 집합을 사용하는 예
         s.addAll(Arrays.asList(args).subList(1, args.length));
         System.out.println(s);
     }
